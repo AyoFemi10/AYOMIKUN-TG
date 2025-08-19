@@ -3,7 +3,7 @@ import telebot
 from openai import OpenAI
 
 # Load tokens from environment variables
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")  # Your Telegram bot token
+TELEGRAM_TOKEN = os.getenv("8268530224:AAG1jBPM0nd__weRTrAXhlQm703oRqcXp00"")  # Your Telegram bot token
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")  # Your OpenAI key
 
 # Initialize clients
