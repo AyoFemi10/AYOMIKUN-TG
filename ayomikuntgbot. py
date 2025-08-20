@@ -41,3 +41,15 @@ def handle_message(message):
 
 # Start polling
 bot.polling()
+from setuptools import setup
+
+def parse_requirements(filename):
+    with open(filename) as f:
+        return f.read().splitlines()
+
+setup(
+    name='AYOMIKUN-TG',
+    version='1.0',
+    install_requires=parse_requirements('requirements.txt'),
+    # other setup fields
+)
